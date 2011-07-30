@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="562" systemVersion="11A511" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="CVGroup" representedClassName="CVGroup">
+        <attribute name="date_created" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="date_latest_message" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="desc" optional="YES" attributeType="String" defaultValueString="none"/>
+        <attribute name="gid" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="is_member" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="kind" optional="YES" attributeType="String" defaultValueString="public"/>
+        <attribute name="members_count" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="name" optional="YES" attributeType="String" defaultValueString="unknown"/>
+        <attribute name="primary_topic_id" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="slug" optional="YES" attributeType="String" defaultValueString="none"/>
+        <attribute name="topics_count" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="tracked" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="unread" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <relationship name="creator" optional="YES" minCount="1" maxCount="1" deletionRule="Cascade" destinationEntity="CVLogin" inverseName="groups" inverseEntity="CVLogin"/>
+    </entity>
+    <entity name="CVLogin" representedClassName="CVLogin">
+        <attribute name="img" optional="YES" attributeType="String" defaultValueString="none"/>
+        <attribute name="mid" optional="YES" attributeType="Integer 32" defaultValueString="0"/>
+        <attribute name="url" optional="YES" attributeType="String" defaultValueString="none"/>
+        <attribute name="username" optional="YES" attributeType="String" defaultValueString="unknown"/>
+        <relationship name="groups" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="CVGroup" inverseName="creator" inverseEntity="CVGroup"/>
+    </entity>
+    <elements>
+        <element name="CVGroup" positionX="160" positionY="192" width="128" height="270"/>
+        <element name="CVLogin" positionX="529" positionY="567" width="128" height="180"/>
+    </elements>
+</model>

@@ -1,0 +1,944 @@
+TTest
+v3
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Developer/Messy/build/Debug-iphonesimulator/Test.app/Info.plist Test/Test-Info.plist
+cDataModelVersionCompile /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test.momd /Developer/Messy/Test.xcdatamodeld
+cProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch.gch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/GroupTableViewController.o /Developer/Messy/Test/GroupTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Developer/Messy/Test/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o /Developer/Messy/Test/TestAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestObjectCache.o /Developer/Messy/Test/TestObjectCache.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVGroup.o /Developer/Messy/Test/CVGroup.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVLogin.o /Developer/Messy/Test/CVLogin.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVRootObject.o /Developer/Messy/Test/CVRootObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+cLd /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test normal i386
+cGenerateDSYMFile /Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test
+cCpResource three20/src/Three20.bundle build/Debug-iphonesimulator/Test.app/Three20.bundle
+cCopyStringsFile /Developer/Messy/build/Debug-iphonesimulator/Test.app/en.lproj/InfoPlist.strings Test/en.lproj/InfoPlist.strings
+cTouch /Developer/Messy/build/Debug-iphonesimulator/Test.app
+
+N/Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitCoreData.a
+c000000004E34895B0000000000052AA0
+t1312065883
+s338592
+
+N/Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a
+c000000004E34895B00000000000386E0
+t1312065883
+s231136
+
+N/Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitNetwork.a
+c000000004E34894A0000000000077C80
+t1312065866
+s490624
+
+N/Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitObjectMapping.a
+c000000004E34894B0000000000068650
+t1312065867
+s427600
+
+N/Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitSupport.a
+c000000004E348948000000000001F1E0
+t1312065864
+s127456
+
+N/Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitThree20.a
+c000000004E34897E00000000000224E0
+t1312065918
+s140512
+
+N/Developer/Messy/RestKit/Build/RestKit/CoreData/CoreData.h
+c000000004E348950000000000000017C
+t1312065872
+s380
+i<CoreData/CoreData.h>
+i"../ObjectMapping/ObjectMapping.h"
+i"NSManagedObject+ActiveRecord.h"
+i"RKManagedObjectStore.h"
+i"RKManagedObjectSeeder.h"
+i"RKManagedObjectCache.h"
+i"RKManagedObjectMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/CoreData/NSManagedObject+ActiveRecord.h
+c000000004E34895000000000000023BD
+t1312065872
+s9149
+i<CoreData/CoreData.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/CoreData/RKManagedObjectCache.h
+c000000004E3489500000000000000205
+t1312065872
+s517
+
+N/Developer/Messy/RestKit/Build/RestKit/CoreData/RKManagedObjectMapping.h
+c000000004E3489500000000000000BDA
+t1312065872
+s3034
+i<CoreData/CoreData.h>
+i"../ObjectMapping/RKObjectMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/CoreData/RKManagedObjectSeeder.h
+c000000004E34894F0000000000000951
+t1312065871
+s2385
+i"../ObjectMapping/ObjectMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/CoreData/RKManagedObjectStore.h
+c000000004E34894F00000000000015C4
+t1312065871
+s5572
+i<CoreData/CoreData.h>
+i"RKManagedObjectCache.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/NSDictionary+RKRequestSerialization.h
+c000000004E3489470000000000000371
+t1312065863
+s881
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/Network.h
+c000000004E3489470000000000000141
+t1312065863
+s321
+i"RKClient.h"
+i"RKRequest.h"
+i"RKResponse.h"
+i"RKRequestSerializable.h"
+i"RKReachabilityObserver.h"
+i"RKRequestQueue.h"
+i"RKNotifications.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKClient.h
+c000000004E34894700000000000048F6
+t1312065863
+s18678
+i"RKRequest.h"
+i"RKParams.h"
+i"RKResponse.h"
+i"NSDictionary+RKRequestSerialization.h"
+i"RKReachabilityObserver.h"
+i"RKRequestCache.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKNotifications.h
+c000000004E3489470000000000000361
+t1312065863
+s865
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKParams.h
+c000000004E34894700000000000009B2
+t1312065863
+s2482
+i<Foundation/Foundation.h>
+i"RKRequestSerializable.h"
+i"RKParamsAttachment.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKParamsAttachment.h
+c000000004E3489470000000000000863
+t1312065863
+s2147
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKReachabilityObserver.h
+c000000004E348947000000000000077A
+t1312065863
+s1914
+i<Foundation/Foundation.h>
+i<SystemConfiguration/SystemConfiguration.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKRequest.h
+c000000004E348947000000000000223E
+t1312065863
+s8766
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+i<CoreData/CoreData.h>
+i"RKRequestSerializable.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKRequestCache.h
+c000000004E3489470000000000000789
+t1312065863
+s1929
+i"RKRequest.h"
+i"RKResponse.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKRequestQueue.h
+c000000004E34894700000000000010FB
+t1312065863
+s4347
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKRequestSerializable.h
+c000000004E34894700000000000005FC
+t1312065863
+s1532
+
+N/Developer/Messy/RestKit/Build/RestKit/Network/RKResponse.h
+c000000004E34894700000000000012AD
+t1312065863
+s4781
+i<Foundation/Foundation.h>
+i"RKRequest.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/ObjectMapping.h
+c000000004E3489470000000000000195
+t1312065863
+s405
+i"RKObjectManager.h"
+i"RKObjectLoader.h"
+i"RKObjectMapping.h"
+i"RKObjectSerializer.h"
+i"RKObjectMappingProvider.h"
+i"RKObjectMappingResult.h"
+i"RKObjectMapper.h"
+i"RKObjectFactory.h"
+i"RKParserRegistry.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectAttributeMapping.h
+c000000004E34894700000000000002A8
+t1312065863
+s680
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectFactory.h
+c000000004E348947000000000000023A
+t1312065863
+s570
+i"RKObjectMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectLoader.h
+c000000004E348947000000000000199B
+t1312065863
+s6555
+i"../Network/Network.h"
+i"RKObjectMapping.h"
+i"RKObjectMappingResult.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectManager.h
+c000000004E3489470000000000003D84
+t1312065863
+s15748
+i"../Network/Network.h"
+i"RKObjectLoader.h"
+i"RKObjectRouter.h"
+i"RKObjectMappingProvider.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectMapper.h
+c000000004E3489470000000000000A48
+t1312065863
+s2632
+i<Foundation/Foundation.h>
+i"RKObjectMapping.h"
+i"RKObjectMappingOperation.h"
+i"RKObjectMappingResult.h"
+i"RKObjectMappingProvider.h"
+i"RKObjectFactory.h"
+i"../Support/Support.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectMapping.h
+c000000004E3489470000000000003EFA
+t1312065863
+s16122
+i<Foundation/Foundation.h>
+i"RKObjectAttributeMapping.h"
+i"RKObjectRelationshipMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingOperation.h
+c000000004E3489470000000000000C03
+t1312065863
+s3075
+i"RKObjectMapping.h"
+i"RKObjectAttributeMapping.h"
+i"RKObjectFactory.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingProvider.h
+c000000004E34894700000000000011A0
+t1312065863
+s4512
+i"RKObjectMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectMappingResult.h
+c000000004E3489470000000000000223
+t1312065863
+s547
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectRelationshipMapping.h
+c000000004E3489470000000000000352
+t1312065863
+s850
+i<Foundation/Foundation.h>
+i"RKObjectAttributeMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectRouter.h
+c000000004E348947000000000000055A
+t1312065863
+s1370
+i"../Network/RKRequest.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKObjectSerializer.h
+c000000004E348947000000000000078E
+t1312065863
+s1934
+i"RKObjectMapping.h"
+i"RKObjectMappingOperation.h"
+i"../Network/RKRequestSerializable.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/ObjectMapping/RKParserRegistry.h
+c000000004E3489470000000000000503
+t1312065863
+s1283
+i"../Support/RKMIMETypes.h"
+i"../Support/RKParser.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/RestKit.h
+c000000004E32C4890000000000000205
+t1311949961
+s517
+i"Network/Network.h"
+i"Support/Support.h"
+i"ObjectMapping/ObjectMapping.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/Errors.h
+c000000004E348944000000000000020E
+t1312065860
+s526
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/JSON/JSONKit/RKJSONParserJSONKit.h
+c000000004E34894E00000000000000EA
+t1312065870
+s234
+i"../../RKParser.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/JSON/SBJSON/RKJSONParserSBJSON.h
+c000000004E34894E00000000000000E8
+t1312065870
+s232
+i"../../RKParser.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/JSON/YAJL/RKJSONParserYAJL.h
+c000000004E34894B00000000000000E4
+t1312065867
+s228
+i"../../RKParser.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/LCLNSLog.h
+c000000004E34894400000000000009D7
+t1312065860
+s2519
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/NSDictionary+RKAdditions.h
+c000000004E34894400000000000001B4
+t1312065860
+s436
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/NSString+RestKit.h
+c000000004E3489440000000000000645
+t1312065860
+s1605
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/RKLog.h
+c000000004E34894400000000000010F4
+t1312065860
+s4340
+i"lcl.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/RKMIMETypes.h
+c000000004E3489440000000000000122
+t1312065860
+s290
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/RKParser.h
+c000000004E3489440000000000000277
+t1312065860
+s631
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/RKSearchEngine.h
+c000000004E3489440000000000000775
+t1312065860
+s1909
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/Support.h
+c000000004E3489440000000000000102
+t1312065860
+s258
+i"Errors.h"
+i"NSDictionary+RKAdditions.h"
+i"RKMIMETypes.h"
+i"RKLog.h"
+i"NSString+RestKit.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/lcl.h
+c000000004E34894400000000000025AD
+t1312065860
+s9645
+i<Foundation/Foundation.h>
+i"lcl_config_components.h"
+i"lcl_config_logger.h"
+i"lcl_config_extensions.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/lcl_config_components.h
+c000000004E34894400000000000007DB
+t1312065860
+s2011
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/lcl_config_extensions.h
+c000000004E34894400000000000000A2
+t1312065860
+s162
+i"RKLog.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Support/lcl_config_logger.h
+c000000004E34894400000000000000AA
+t1312065860
+s170
+i"LCLNSLog.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Three20/RKFilterableObjectLoaderTTModel.h
+c000000004E34895F000000000000069D
+t1312065887
+s1693
+i"RKObjectLoaderTTModel.h"
+i"../Support/RKSearchEngine.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Three20/RKMappableObjectTableItem.h
+c000000004E34895F000000000000017D
+t1312065887
+s381
+i<Three20/Three20.h>
+i"../RestKit.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Three20/RKObjectLoaderTTModel.h
+c000000004E34895F0000000000000999
+t1312065887
+s2457
+i<Three20/Three20.h>
+i"../RestKit.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Three20/RKObjectTTTableViewDataSource.h
+c000000004E34895F00000000000008F0
+t1312065887
+s2288
+i<Three20/Three20.h>
+i"../RestKit.h"
+
+N/Developer/Messy/RestKit/Build/RestKit/Three20/Three20.h
+c000000004E34895F0000000000000120
+t1312065887
+s288
+i"RKObjectLoaderTTModel.h"
+i"RKFilterableObjectLoaderTTModel.h"
+i"RKMappableObjectTableItem.h"
+i"RKObjectTTTableViewDataSource.h"
+
+N/Developer/Messy/Test.xcdatamodeld
+c000000004E3338210000000000000088
+t1311979553
+s136
+
+N/Developer/Messy/Test/CVGroup.h
+c000000004E33239A00000000000002BB
+t1311974298
+s699
+i<Foundation/Foundation.h>
+i<RestKit/RestKit.h>
+i"CVRootObject.h"
+
+N/Developer/Messy/Test/CVGroup.m
+c000000004E33232B0000000000000234
+t1311974187
+s564
+i"CVGroup.h"
+i"CVLogin.h"
+
+N/Developer/Messy/Test/CVLogin.h
+c000000004E3329DA00000000000001BD
+t1311975898
+s445
+i<Foundation/Foundation.h>
+i<RestKit/RestKit.h>
+
+N/Developer/Messy/Test/CVLogin.m
+c000000004E3329DD0000000000000135
+t1311975901
+s309
+i"CVLogin.h"
+
+N/Developer/Messy/Test/CVRootObject.h
+c000000004E30E44200000000000002AC
+t1311827010
+s684
+i<RestKit/RestKit.h>
+i<RestKit/CoreData/CoreData.h>
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/Test/CVRootObject.m
+c000000004E32DCB700000000000001C3
+t1311956151
+s451
+i"CVRootObject.h"
+
+N/Developer/Messy/Test/GroupTableViewController.h
+c000000004E332F950000000000000122
+t1311977365
+s290
+i"GroupTableViewController.h"
+i<Three20/Three20.h>
+
+N/Developer/Messy/Test/GroupTableViewController.m
+c000000004E333814000000000000075B
+t1311979540
+s1883
+i"GroupTableViewController.h"
+i"CVGroup.h"
+i<Three20/Three20+Additions.h>
+i<RestKit/Restkit.h>
+i<RestKit/Three20/Three20.h>
+
+N/Developer/Messy/Test/Test-Prefix.pch
+c000000004E32C2A8000000000000013A
+t1311949480
+s314
+i<Availability.h>
+i<UIKit/UIKit.h>
+i<Foundation/Foundation.h>
+
+N/Developer/Messy/Test/TestAppDelegate.h
+c000000004E32ED710000000000000148
+t1311960433
+s328
+i<UIKit/UIKit.h>
+
+N/Developer/Messy/Test/TestAppDelegate.m
+c000000004E33381B0000000000001543
+t1311979547
+s5443
+i"TestAppDelegate.h"
+i<RestKit/RestKit.h>
+i<RestKit/CoreData/CoreData.h>
+i<RestKit/Three20/Three20.h>
+i<RestKit/Support/JSON/JSONKit/RKJSONParserJSONKit.h>
+i<RestKit/Support/JSON/SBJSON/RKJSONParserSBJSON.h>
+i<RestKit/Support/JSON/YAJL/RKJSONParserYAJL.h>
+i<Three20/Three20.h>
+i<Three20/Three20+Additions.h>
+i"TestObjectCache.h"
+i"GroupTableViewController.h"
+i"CVGroup.h"
+i"CVLogin.h"
+
+N/Developer/Messy/Test/TestObjectCache.h
+c000000004E32CF59000000000000012E
+t1311952729
+s302
+i<Foundation/Foundation.h>
+i<RestKit/CoreData/RKManagedObjectCache.h>
+
+N/Developer/Messy/Test/TestObjectCache.m
+c000000004E332FCE0000000000000210
+t1311977422
+s528
+i"TestObjectCache.h"
+i"CVGroup.h"
+
+N/Developer/Messy/Test/en.lproj/InfoPlist.strings
+c000000004E32C2A8000000000000002D
+t1311949480
+s45
+
+N/Developer/Messy/Test/main.m
+c000000004E32C5D50000000000000178
+t1311950293
+s376
+i<UIKit/UIKit.h>
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app/Info.plist
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app/PkgInfo
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app/Test
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app/Test.momd
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app/Three20.bundle
+t2
+s0
+
+N/Developer/Messy/build/Debug-iphonesimulator/Test.app/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVGroup.o
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVLogin.o
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVRootObject.o
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/GroupTableViewController.o
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList
+c000000004E34899600000000000002CA
+t1312065942
+s714
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestObjectCache.o
+t2
+s0
+
+N/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20.a
+c000000004E34899500000000000010B0
+t1312065941
+s4272
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a
+c000000004E34894E0000000000047370
+t1312065870
+s291696
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a
+c000000004E34895F00000000000559F0
+t1312065887
+s350704
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a
+c000000004E348988000000000012AC88
+t1312065928
+s1223816
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a
+c000000004E34899200000000005DAB70
+t1312065938
+s6138736
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a
+c000000004E34895D000000000004BD88
+t1312065885
+s310664
+
+N/Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a
+c000000004E3489810000000000090358
+t1312065921
+s590680
+
+N/Developer/Messy/three20/src/Three20.bundle
+c000000004E3485F40000000000000264
+t1312065012
+s612
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
+c000000004E2732520000000000000110
+t1311191634
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+c000000004D93DFC500000000001C41E0
+t1301536709
+s1851872
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/CoreData
+c000000004D93E02200000000001D6EC0
+t1301536802
+s1928896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
+c000000004D93E017000000000000046B
+t1301536791
+s1131
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D93DF6900000000002999B0
+t1301536617
+s2726320
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D93DFEA000000000029DA70
+t1301536746
+s2742896
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D93DFDD0000000000001466
+t1301536733
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c000000004D93E09A000000000005C090
+t1301536922
+s376976
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004D93E1B20000000000162C50
+t1301537202
+s1453136
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/Headers/SystemConfiguration.h
+c000000004D93DEED0000000000001A58
+t1301536493
+s6744
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
+c000000004D93DEF400000000000689C0
+t1301536500
+s428480
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D93ECBE0000000000000AA1
+t1301540030
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D93ED1B0000000000766870
+t1301540123
+s7759984
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/include/Availability.h
+c000000004D4F7A2B0000000000001B19
+t1297054251
+s6937
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/usr/lib/libxml2.dylib
+c000000004D93DF73000000000011E3F0
+t1301536627
+s1172464
+
+N/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch.gch
+t2
+s0
+
+NTest/Test-Info.plist
+c000000004E32C6580000000000000471
+t1311950424
+s1137
+
+CBuild AST from /Developer/Messy/Test/CVGroup.m
+r0
+
+CBuild AST from /Developer/Messy/Test/CVLogin.m
+r0
+
+CBuild AST from /Developer/Messy/Test/CVRootObject.m
+r0
+
+CBuild AST from /Developer/Messy/Test/GroupTableViewController.m
+r0
+
+CBuild AST from /Developer/Messy/Test/TestAppDelegate.m
+r0
+
+CBuild AST from /Developer/Messy/Test/TestObjectCache.m
+r0
+
+CBuild AST from /Developer/Messy/Test/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies992e5016c1e4b341^95445e16c1e4b341^---0#1#0#--18"Check dependencies
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVGroup.o /Developer/Messy/Test/CVGroup.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758746.511996
+e333758746.733190
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVGroup.o
+x/Developer/Messy/Test/CVGroup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Messy/Test/CVGroup.m363a831ac1e4b341^8eb1bb1ac1e4b341^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Messy/Test/CVGroup.m0000000000000000^1980"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVGroup.o Test/CVGroup.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/CVGroup.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVGroup.o
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVLogin.o /Developer/Messy/Test/CVLogin.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758746.734522
+e333758746.838143
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVLogin.o
+x/Developer/Messy/Test/CVLogin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Compile /Developer/Messy/Test/CVLogin.md82bbc1ac1e4b341^3b8fd61ac1e4b341^---0#0#0#-19%DVTDocumentLocation2@47"file://localhost/Developer/Messy/Test/CVLogin.m0000000000000000^1980"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVLogin.o Test/CVLogin.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/CVLogin.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVLogin.o
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVRootObject.o /Developer/Messy/Test/CVRootObject.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758746.839641
+e333758746.919608
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVRootObject.o
+x/Developer/Messy/Test/CVRootObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Compile /Developer/Messy/Test/CVRootObject.mb116d71ac1e4b341^0169eb1ac1e4b341^---0#0#0#-19%DVTDocumentLocation2@52"file://localhost/Developer/Messy/Test/CVRootObject.m0000000000000000^2000"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVRootObject.o Test/CVRootObject.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/CVRootObject.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/CVRootObject.o
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/GroupTableViewController.o /Developer/Messy/Test/GroupTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758745.824895
+e333758747.190606
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/GroupTableViewController.o
+x/Developer/Messy/Test/GroupTableViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /Developer/Messy/Test/GroupTableViewController.m054dd319c1e4b341^54c9301bc1e4b341^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Messy/Test/GroupTableViewController.m0000000000000000^2048"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/GroupTableViewController.o Test/GroupTableViewController.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/GroupTableViewController.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/GroupTableViewController.o
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o /Developer/Messy/Test/TestAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758745.824906
+e333758747.141908
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+x/Developer/Messy/Test/TestAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Messy/Test/TestAppDelegate.mfe46d319c1e4b341^5052241bc1e4b341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Messy/Test/TestAppDelegate.m0000000000000000^2012"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o Test/TestAppDelegate.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/TestAppDelegate.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestAppDelegate.o
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestObjectCache.o /Developer/Messy/Test/TestObjectCache.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758745.918685
+e333758746.510653
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestObjectCache.o
+x/Developer/Messy/Test/TestObjectCache.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Compile /Developer/Messy/Test/TestObjectCache.m3a58eb19c1e4b341^e9b8821ac1e4b341^---0#0#0#-19%DVTDocumentLocation2@55"file://localhost/Developer/Messy/Test/TestObjectCache.m0000000000000000^2012"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestObjectCache.o Test/TestObjectCache.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/TestObjectCache.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/TestObjectCache.o
+
+CCompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o /Developer/Messy/Test/main.m normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758745.824899
+e333758745.917376
+r1
+xCompileC
+xbuild/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+x/Developer/Messy/Test/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Compile /Developer/Messy/Test/main.m494dd319c1e4b341^b6d7ea19c1e4b341^---0#0#0#-19%DVTDocumentLocation2@44"file://localhost/Developer/Messy/Test/main.m0000000000000000^1968"CompileC build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o Test/main.m normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -include /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch -c /Developer/Messy/Test/main.m -o /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/main.o
+
+CCopyStringsFile /Developer/Messy/build/Debug-iphonesimulator/Test.app/en.lproj/InfoPlist.strings Test/en.lproj/InfoPlist.strings
+s333758750.292015
+e333758750.361002
+r1
+xCopyStringsFile
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app/en.lproj/InfoPlist.strings
+xTest/en.lproj/InfoPlist.strings
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy Test/en.lproj/InfoPlist.stringsaad64a1ec1e4b341^836d5c1ec1e4b341^---0#0#0#-19%DVTDocumentLocation2@64"file://localhost/Developer/Messy/Test/en.lproj/InfoPlist.strings0000000000000000^455"CopyStringsFile build/Debug-iphonesimulator/Test.app/en.lproj/InfoPlist.strings Test/en.lproj/InfoPlist.strings    cd /Developer/Messy    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Developer/Messy/build/Debug-iphonesimulator/Test.app/en.lproj -- Test/en.lproj/InfoPlist.strings
+
+CCpResource three20/src/Three20.bundle build/Debug-iphonesimulator/Test.app/Three20.bundle
+s333758750.291996
+e333758750.404843
+r1
+xCpResource
+xthree20/src/Three20.bundle
+xbuild/Debug-iphonesimulator/Test.app/Three20.bundle
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphonesimulator/Test.app/Three20.bundle9dd54a1ec1e4b341^01a3671ec1e4b341^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Developer/Messy/build/Debug-iphonesimulator/Test.app/Three20.bundle00f4549ddcffdf42^442"CpResource three20/src/Three20.bundle build/Debug-iphonesimulator/Test.app/Three20.bundle    cd /Developer/Messy    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Developer/Messy/three20/src/Three20.bundle /Developer/Messy/build/Debug-iphonesimulator/Test.app
+
+CDataModelVersionCompile /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test.momd /Developer/Messy/Test.xcdatamodeld
+s333758742.435617
+e333758743.654252
+r1
+xDataModelVersionCompile
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app/Test.momd
+x/Developer/Messy/Test.xcdatamodeld
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"DataModelVersionCompile build/Debug-iphonesimulator/Test.app/Test.momd Test.xcdatamodeld289e6f16c1e4b341^c07ba717c1e4b341^---0#0#0#-19%DVTDocumentLocation2@51"file://localhost/Developer/Messy/Test.xcdatamodeld/0000000000000000^590"DataModelVersionCompile build/Debug-iphonesimulator/Test.app/Test.momd Test.xcdatamodeld    cd /Developer/Messy    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/momc -XD_MOMC_SDKROOT=/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -XD_MOMC_IOS_TARGET_VERSION=4.3 -MOMC_PLATFORMS iphonesimulator -MOMC_PLATFORMS iphoneos -XD_MOMC_TARGET_VERSION=10.6 /Developer/Messy/Test.xcdatamodeld /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test.momd
+
+CGenerateDSYMFile /Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test
+s333758749.430655
+e333758750.283328
+r1
+xGenerateDSYMFile
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app/Test
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Generating /Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM48526e1dc1e4b341^2387481ec1e4b341^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM00f4549ddcffdf42^409"GenerateDSYMFile build/Debug-iphonesimulator/Test.app.dSYM build/Debug-iphonesimulator/Test.app/Test    cd /Developer/Messy    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test -o /Developer/Messy/build/Debug-iphonesimulator/Test.app.dSYM
+
+CLd /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test normal i386
+s333758747.198523
+e333758749.424234
+r1
+xLd
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app/Test
+xnormal
+xi386
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Link /Developer/Messy/build/Debug-iphonesimulator/Test.app/Testa6ee321bc1e4b341^8d996c1dc1e4b341^---0#0#0#--2056"Ld build/Debug-iphonesimulator/Test.app/Test normal i386    cd /Developer/Messy    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -L/Developer/Messy/build/Debug-iphonesimulator -L/Developer/Messy/RestKit/Build/Debug-iphonesimulator -F/Developer/Messy/build/Debug-iphonesimulator -filelist /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Objects-normal/i386/Test.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -ObjC -all_load /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20UICommon.a /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20.a /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20UINavigator.a /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20Core.a /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20UI.a /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20Network.a /Developer/Messy/three20/Build/Products/Debug-iphonesimulator/libThree20Style.a -framework CFNetwork -framework CoreData -lxml2 -framework MobileCoreServices -framework SystemConfiguration /Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitCoreData.a /Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitJSONParserJSONKit.a /Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitNetwork.a /Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitObjectMapping.a /Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitSupport.a /Developer/Messy/RestKit/Build/Debug-iphonesimulator/libRestKitThree20.a -framework UIKit -framework QuartzCore -framework Foundation -framework CoreGraphics -o /Developer/Messy/build/Debug-iphonesimulator/Test.app/Test
+
+CProcessInfoPlistFile /Developer/Messy/build/Debug-iphonesimulator/Test.app/Info.plist Test/Test-Info.plist
+s333758742.398972
+e333758742.427396
+r1
+xProcessInfoPlistFile
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app/Info.plist
+xTest/Test-Info.plist
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Process Test/Test-Info.plista8346616c1e4b341^3c696d16c1e4b341^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Developer/Messy/Test/Test-Info.plist0000000000000000^499"ProcessInfoPlistFile build/Debug-iphonesimulator/Test.app/Info.plist Test/Test-Info.plist    cd /Developer/Messy    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Test/Test-Info.plist -genpkginfo /Developer/Messy/build/Debug-iphonesimulator/Test.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Developer/Messy/build/Debug-iphonesimulator/Test.app/Info.plist
+
+CProcessPCH /Users/aditya15417/Library/Developer/Xcode/DerivedData/Test-gjqzywaygdlrlhgzclpgjzucdqnl/Index/PrecompiledHeaders/Test-Prefix-ghtysrvkqjbstebldjxldpmrnswr_ast/Test-Prefix.pch.pth Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch.gch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42
+s333758742.435649
+e333758745.817097
+r1
+xProcessPCH
+x/var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch.gch
+xTest/Test-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvmgcc42
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection31"Precompile Test/Test-Prefix.pch26a66f16c1e4b341^172cd119c1e4b341^---0#0#0#-19%DVTDocumentLocation2@53"file://localhost/Developer/Messy/Test/Test-Prefix.pch0000000000000000^1974"ProcessPCH /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch.gch Test/Test-Prefix.pch normal i386 objective-c com.apple.compilers.llvmgcc42    cd /Developer/Messy    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/llvm-gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wmissing-prototypes -Wreturn-type -Wunused-variable -DDEBUG=1 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fasm-blocks -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-generated-files.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-own-target-headers.hmap -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-all-target-headers.hmap -iquote /Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/Test-project-headers.hmap -I/Developer/Messy/build/Debug-iphonesimulator/include -I/Developer/Messy/build/Debug-iphonesimulator/../three20 -I/Developer/Messy/build/Debug-iphonesimulator/../../three20 -Ithree20/Build/Products/three20 -I/Developer/Messy/RestKit/Build -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources/i386 -I/Developer/Messy/build/Test.build/Debug-iphonesimulator/Test.build/DerivedSources -F/Developer/Messy/build/Debug-iphonesimulator -c /Developer/Messy/Test/Test-Prefix.pch -o /var/folders/9x/c4tyvsn97zsf2x37tchzjzr80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/Test-Prefix-gmpbpxsdrvmffravblnnuktlaaeo/Test-Prefix.pch.gch
+
+CTouch /Developer/Messy/build/Debug-iphonesimulator/Test.app
+s333758750.412535
+e333758750.456359
+r1
+xTouch
+x/Developer/Messy/build/Debug-iphonesimulator/Test.app
+lSLF03#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Touch /Developer/Messy/build/Debug-iphonesimulator/Test.app4fae691ec1e4b341^d4d2741ec1e4b341^---0#0#0#--274"Touch build/Debug-iphonesimulator/Test.app    cd /Developer/Messy    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Developer/Messy/build/Debug-iphonesimulator/Test.app
+
